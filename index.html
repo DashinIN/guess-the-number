@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай число</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="game">
+            <label for="guessField">Ваше предположение: </label>
+            <input type="number" class="guessField">
+            <button type="submit" class="guessSubmit">Отправить предположение</button>
+        </div>
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+        <div class="restart">
+            <button class="newGame">Начать заново</button>
+        </div>
+        <div class="range">
+            <label for="minNumber">Минимальное число:</label>
+            <input type="number" class="minNumber" value="1">
+            <label for="maxNumber">Максимальное число:</label>
+            <input type="number" class="maxNumber" value="100">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

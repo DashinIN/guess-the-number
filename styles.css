@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input, button {
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 12px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+button {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+input {
+    width: 100px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.resultParas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+    text-align: center;
+}
+
+.guesses {
+    font-size: 1.2rem;
+}
+
+.lastResult {
+    color: white;
+    padding: 10px;
+}
+
+.range {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+
